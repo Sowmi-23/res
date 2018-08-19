@@ -1,0 +1,143 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+    box-shadow: 3px 3px 3px #ddd;
+}
+tr:nth-child(odd){
+	background: #ddd;
+}
+td,
+th{
+	padding:1%;
+}
+.skDiv{
+	width:100%;
+	border-left: 3px solid #134A98;
+	padding: 1%;
+	margin:1%;
+
+}
+span{
+	background: #134A98;
+	color:#fff;
+	border:1px solid #3B457E;
+	box-shadow:3px 3px 3px #ddd;
+	margin:1%;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: centre;
+}
+.child1{
+	width: 30%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	text-align:center;
+	background:#9710D7;
+}
+.child2{
+	width: 70%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+}
+.profile{
+	width:200px;
+	height: 200px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color: blue;
+}
+a{
+	text-decoration:none;
+	font-size: 20px; 
+	word-wrap: break-word;
+}
+p
+{
+	font-size: 20px;
+	word-wrap: break-word;
+}
+/*small screens*/
+ @media only screen and (min-width:320px) and (max-width:480px){
+ 	.parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: centre;
+}
+.child1{
+	width: 100%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	text-align:center;
+	background:#DC7633;
+}
+.child2{
+	width: 100%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background:#58D68D;
+}
+   
+   }
+   /*medium screen*/
+   @media only screen and (min-width:481px) and (max-width:768px){
+   	.parent{
+	display: flex;
+	flex-direction:row;
+	justify-content: centre;
+}
+.child1{
+	width: 40%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	text-align:center;
+	background:#B50505;
+}
+.child2{
+	width: 60%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background:#3FFF08;  
+}
+
+   }
+   /*large screen*/
+ @media only screen and (min-width:769px) and (max-width:1024px){
+
+.parent{
+	display: flex;
+	flex-direction:row;
+	justify-content: centre;
+}
+.child1{
+	width: 100%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	text-align:center;
+	background:#E74C3C;
+}
+.child2{
+	width: 100%;
+	border:1px solid #ddd;
+	padding: 1%;
+	margin:1%;
+	background:#F08080;
+}
+ }
+ *{
+ 	font-size: 30px;
+ }
