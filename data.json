@@ -2,8 +2,8 @@
 	"basics":{
 		"name":"sowmya",
 		"role":"mean-stack",
-		"mobile":"+91 9876543212",
-		"email":"sowmya.angalakurthy@gmail.com"
+		"mobile":"",
+		"email":""
 	},
 	"career":{
 		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
@@ -12,18 +12,18 @@
 		{
 			"degree":"B.tech(computer science and engineering)",
 			"institute":"vignans nirula",
-			"data":["2016-2020","75%"]
+			"data":["","75%"]
 		},
         {
 
 			"degree":"intermidiate(mpc)",
 			"institute":"vignan junior college",
-			"data":["2014-2016","86%"]
+			"data":["","86%"]
 		},
 		{
 			"degree":"s.s.c",
 			"institute":"sri nagarjuna high school",
-			"data":["2013-2014","80%"]
+			"data":["","80%"]
 		}
 		],
 	"skills":[
